@@ -1,0 +1,6 @@
+@PassCPD_HostAddress = http://localhost:5198
+
+GET {{PassCPD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

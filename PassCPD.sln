@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassCPD", "PassCPD.csproj", "{AB158F5C-09C9-4BD0-BBE6-6BB699DFAC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB158F5C-09C9-4BD0-BBE6-6BB699DFAC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB158F5C-09C9-4BD0-BBE6-6BB699DFAC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB158F5C-09C9-4BD0-BBE6-6BB699DFAC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB158F5C-09C9-4BD0-BBE6-6BB699DFAC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548DE4E2-4896-46B4-A4CB-B85D06A05843}
+	EndGlobalSection
+EndGlobal
