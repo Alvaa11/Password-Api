@@ -43,9 +43,9 @@ namespace Routes.UsersRoutes
             async (int Id, UsersContext context, UsersRequest req) => 
             {
                 var user = await context.Users.FirstOrDefaultAsync(u => u.Id == Id);;
-                if(user == null)
+                if(user == null || user.VerifyUser(req.Username) == true)
                 {
-                    return Results.NotFound("User not found");
+                    return Results.BadRequest("User already exists or not found");
                 }
                 else {
                     user.SetUsername(req.Username, req.Password);
